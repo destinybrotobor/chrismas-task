@@ -1,5 +1,6 @@
 /* Import Styles for Different Components Here */
 @import "header_styles.css";
+@import "footer_styles.css";
 
 /* Overall Global styles */
 :root {
