@@ -39,15 +39,23 @@
 }
 
 .top-right-menu {
-  padding: 0 20px;
+  display: flex;
 }
 
-.nav-links {
+.nav-links,
+.social-links {
   display: flex;
   gap: 20px;
+  padding-right: 20px;
 }
 
-.nav-links li {
+.social-links {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links li,
+.social-links li {
   list-style: none;
 }
 
@@ -56,4 +64,49 @@
   color: #000;
   font-size: 14px;
   font-weight: 500;
+}
+
+.main-menu {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-links ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.main-nav-links a {
+  text-decoration: none;
+  color: #051b05;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.main-nav-links i {
+  font-size: 10px;
+  color: #051b05;
+  margin-left: 5px;
+}
+
+.main-nav-btn {
+  background-color: #1a4137;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 200px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.hero-section {
+  background-image: url(https://html.kodesolution.com/2025/consultez-html-v2/images/banner/banner-image2.jpg);
 }
