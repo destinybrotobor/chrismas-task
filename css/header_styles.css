@@ -9,7 +9,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
   border-bottom: 1px solid #e7e7e8;
 }
 
@@ -40,6 +39,8 @@
 
 .top-right-menu {
   display: flex;
+  background-color: var(--secondary-color);
+  padding: 20px 20px 20px 75px;
 }
 
 .nav-links,
@@ -57,13 +58,14 @@
 .nav-links li,
 .social-links li {
   list-style: none;
+  cursor: pointer;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #000;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .main-menu {
@@ -105,8 +107,4 @@
   min-width: 200px;
   max-width: 100%;
   text-align: center;
-}
-
-.hero-section {
-  background-image: url(https://html.kodesolution.com/2025/consultez-html-v2/images/banner/banner-image2.jpg);
 }
