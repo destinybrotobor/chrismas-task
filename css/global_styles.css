@@ -1,6 +1,8 @@
 /* Import Styles for Different Components Here */
 @import "header_styles.css";
 @import "footer_styles.css";
+@import "about_section_styles.css";
+@import "services_area_section_styles.css";
 
 /* Overall Global styles */
 :root {
