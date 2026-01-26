@@ -108,3 +108,19 @@
   max-width: 100%;
   text-align: center;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .top-menu,
+  .main-nav-links,
+  .main-nav-btn {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+}
