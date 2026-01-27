@@ -3,6 +3,11 @@
 @import "footer_styles.css";
 @import "about_section_styles.css";
 @import "services_area_section_styles.css";
+@import "mission_section_styles.css";
+@import "growth_section_styles.css";
+@import "howitworks_styles.css";
+@import "case_study_styles.css";
+@import "business_strategy_styles.css";
 
 /* Overall Global styles */
 :root {
