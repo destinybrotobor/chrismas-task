@@ -1,0 +1,137 @@
+.service-area-section {
+  padding: 5rem 4rem;
+  background-image:
+    url(../assets/img/banner-shape.png),
+    linear-gradient(
+      to right,
+      #f1f1f2 0%,
+      #f1f1f2 60%,
+      #1a4137 60%,
+      #1a4137 100%
+    );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.service-area-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.sub-title {
+  background-color: #c6d936;
+  padding: 10px 25px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0 10px;
+  margin: 30px 0;
+  color: #051b05;
+}
+
+.service-area-btn {
+  display: inline-block;
+  background-color: #c6d936;
+  color: #051b05;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  min-width: 220px;
+}
+
+.service-arrow {
+  position: absolute;
+  right: -75px;
+  top: -15px;
+}
+
+.circular-img {
+  position: absolute;
+  top: -91px;
+  right: -105px;
+  z-index: 0;
+}
+
+.circular-img img {
+  width: 175px;
+}
+
+.service-card-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #102930;
+  flex: 1;
+  padding: 30px;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #c6d936;
+}
+
+.shape {
+  vertical-align: middle;
+}
+
+.number {
+  font-size: 22px;
+  color: #c6d936;
+  font-weight: 700;
+}
+
+.title {
+  text-transform: capitalize;
+  margin: 10px 0;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffff;
+}
+
+.text {
+  color: #d9d9d9;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.service-area-cards-img {
+  flex: 1;
+  z-index: 1;
+}
+
+.service-area-cards-img img {
+  display: flex;
+}
+
+.service-area-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.service-area-cards {
+  display: flex;
+}
