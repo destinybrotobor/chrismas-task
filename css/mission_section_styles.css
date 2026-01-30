@@ -1,4 +1,125 @@
-#mission-content{
-    background-color: lightblue;
-    min-height: 300px;
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+.mission-section{
+    background-color: #ffffff;
+    min-height: 700px;
+    padding: 8px;
+}
+
+.mission-content{
+    display: flex;
+    padding: 80px;
+}
+
+.mission-text{
+ margin-right: 20px;
+}
+
+.prim-header{
+    background-color:#c6d936;
+    width: 180px;
+    padding: 8px;
+    border-radius: 15px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.sec-header{
+    font-size: 22px;
+    margin-bottom: 38px;
+}
+
+.goals{
+    display: flex;
+    gap: 100px;
+    text-decoration: none;
+    color: #1a4137;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-us-content{
+
+}
+
+.about-para{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.about-prim-header{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.mission-btn{
+    margin-top: 15px;
+    background-color: #1a4137;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    border: none;
+    font-size: larger;   
+}
+
+.mission-btn:hover{
+    background-color: #c6d936;
+    transition: all 3s;
+}
+
+.mission-image{
+    position: relative;
+}
+
+.empty-div{
+    background-color: #c6d936;
+    height: 300px;
+    width: 333px;
+    position: absolute;
+    bottom: 4px;
+    
+}
+
+.rating-box{
+   padding: 35px;
+}
+
+.rounded{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid black;
+} 
+
+.rating-1{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.rating{
+    display: flex;
+    gap: 40px;
+}
+
+.rating-content{
+    
+}
+
+.rating-no{
+    font-weight: 600;
+    font-size: 40px;
+}
+.rating-text{
+    font-size: 18px;
+    font-weight: 600;
 }
