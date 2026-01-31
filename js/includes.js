@@ -11,3 +11,11 @@ fetch('components/footer.html')
     .then(data => {
         document.getElementById('footer_section').innerHTML = data;
     })
+
+
+// Include Banner
+fetch('components/hero-banner.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('hero_section').innerHTML = data;
+    })
