@@ -12,6 +12,13 @@ fetch('components/footer.html')
         document.getElementById('footer_section').innerHTML = data;
     })
 
+
+// Include Banner
+fetch('components/hero-banner.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('hero_section').innerHTML = data;
+    })
 // Include About Section
 fetch('components/about_section.html')
     .then(response => response.text())

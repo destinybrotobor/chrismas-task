@@ -1,0 +1,54 @@
+#banner_div {
+}
+
+#banner_section {
+}
+
+#banner_row aside:last-child {
+    display: flex;
+    align-items: end;
+}
+
+#banner_row aside:first-child {
+    flex: 1;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner_row aside:first-child > p{
+    text-decoration: underline;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+#banner_row aside:first-child > h1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+#banner_row aside:first-child > h1 > span{
+    font-weight: normal;
+}
+
+#banner_row aside:first-child > a{
+    background-color: var(--secondary-color);
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+}
+
+#left_banner_span{
+    display: inline-block;
+    max-width: 300px;
+    padding: 50px 10px;
+    font-weight: bold;
+}
