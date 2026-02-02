@@ -1,0 +1,32 @@
+#business_strategy_content{
+    min-height: 300px;
+}
+#business_strategy_container{
+    display: flex;
+}
+
+#business_strategy_container > aside:first-child{
+    background-color: aqua;
+    background-image: url('../assets/img/strategy-image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    min-height: 300px;
+    flex: 1;
+}
+
+#business_strategy_container > aside:last-child{
+    min-height: 500px;
+    flex: 1;
+    padding: 20px;
+}
+
+#business_strategy_container > aside:last-child > h2{
+    font-size: 1rem;
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
